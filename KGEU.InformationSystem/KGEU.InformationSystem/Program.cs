@@ -16,7 +16,7 @@ namespace KGEU.InformationSystem
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new TestSystem());
+            Application.Run(new Autorization());
         }
     }
 }

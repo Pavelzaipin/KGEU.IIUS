@@ -24,6 +24,7 @@ namespace KGEU.InformationSystem
 
         private void TestSystem_Load(object sender, EventArgs e)
         {
+            
             questionsList.AddRange(docCreator.GetQuestions());
             fillUpOrUpdateLayout();
         }
@@ -103,6 +104,31 @@ namespace KGEU.InformationSystem
                 arr[i] = temp;
             }
             return arr;
+        }
+
+        private void TestSystem_Exit(object sender, FormClosingEventArgs e)
+        {
+           
+        }
+
+        private void radioButton1_CheckedChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void TestSystem_Leave(object sender, EventArgs e)
+        {
+
+        }
+
+        private void TestSystem_Deactivate(object sender, EventArgs e)
+        {
+            Debug.WriteLine("exxxxittt");
+            if (MessageBox.Show("Are you sure?", "Attantion", MessageBoxButtons.YesNo) == System.Windows.Forms.DialogResult.Yes)
+            {
+
+                Application.Exit();
+            }
         }
     }
 }

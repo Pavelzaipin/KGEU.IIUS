@@ -54,23 +54,22 @@
             // 
             // radioButton1
             // 
-            this.radioButton1.AutoSize = true;
-            this.radioButton1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.radioButton1.Location = new System.Drawing.Point(85, 178);
+            this.radioButton1.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.radioButton1.Location = new System.Drawing.Point(51, 161);
             this.radioButton1.Name = "radioButton1";
-            this.radioButton1.Size = new System.Drawing.Size(88, 24);
+            this.radioButton1.Size = new System.Drawing.Size(295, 58);
             this.radioButton1.TabIndex = 4;
             this.radioButton1.TabStop = true;
-            this.radioButton1.Text = "Ответ 1";
-            this.radioButton1.UseVisualStyleBackColor = true;
+            this.radioButton1.Text = "Ответ 1 fgdfgdfgdfgdfgdfg";
+            this.radioButton1.UseVisualStyleBackColor = false;
+            this.radioButton1.CheckedChanged += new System.EventHandler(this.radioButton1_CheckedChanged);
             // 
             // radioButton2
             // 
-            this.radioButton2.AutoSize = true;
-            this.radioButton2.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.radioButton2.Location = new System.Drawing.Point(85, 242);
+            this.radioButton2.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.radioButton2.Location = new System.Drawing.Point(51, 242);
             this.radioButton2.Name = "radioButton2";
-            this.radioButton2.Size = new System.Drawing.Size(88, 24);
+            this.radioButton2.Size = new System.Drawing.Size(295, 60);
             this.radioButton2.TabIndex = 5;
             this.radioButton2.TabStop = true;
             this.radioButton2.Text = "Ответ 1";
@@ -78,11 +77,10 @@
             // 
             // radioButton3
             // 
-            this.radioButton3.AutoSize = true;
             this.radioButton3.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.radioButton3.Location = new System.Drawing.Point(352, 178);
+            this.radioButton3.Location = new System.Drawing.Point(352, 166);
             this.radioButton3.Name = "radioButton3";
-            this.radioButton3.Size = new System.Drawing.Size(88, 24);
+            this.radioButton3.Size = new System.Drawing.Size(335, 53);
             this.radioButton3.TabIndex = 6;
             this.radioButton3.TabStop = true;
             this.radioButton3.Text = "Ответ 1";
@@ -90,11 +88,10 @@
             // 
             // radioButton4
             // 
-            this.radioButton4.AutoSize = true;
             this.radioButton4.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.radioButton4.Location = new System.Drawing.Point(352, 242);
             this.radioButton4.Name = "radioButton4";
-            this.radioButton4.Size = new System.Drawing.Size(88, 24);
+            this.radioButton4.Size = new System.Drawing.Size(313, 59);
             this.radioButton4.TabIndex = 7;
             this.radioButton4.TabStop = true;
             this.radioButton4.Text = "Ответ 1";
@@ -160,6 +157,7 @@
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Тестирование";
             this.Load += new System.EventHandler(this.TestSystem_Load);
+            this.Leave += new System.EventHandler(this.TestSystem_Leave);
             this.ResumeLayout(false);
             this.PerformLayout();
 
