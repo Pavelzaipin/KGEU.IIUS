@@ -1,0 +1,453 @@
+<?xml version="1.0"?>
+<ArrayOfQuestion xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Question>
+    <number>1</number>
+    <points>1</points>
+    <QuestionText>Что такое система управления базами данных?</QuestionText>
+    <CorrectAnswer>информация, зафиксированная в некоторой форме, пригодной для последующей обработки, передачи и хранения</CorrectAnswer>
+    <FirstIncorrectAnswer>именованная совокупность взаимосвязанных данных, отображающая состояние объектов и их отношений в некоторой предметной области, используемых несколькими пользователями</FirstIncorrectAnswer>
+    <SecondIncorrectAnswer>комплекс программно-аппаратных средств, обеспечивающих создание, поддержку и доступ к БД и управление данными</SecondIncorrectAnswer>
+    <ThirdIncorrectAnswer>часть реального мира, данные о котором хранятся и используются в информационной системе</ThirdIncorrectAnswer>
+  </Question>
+  <Question>
+    <number>2</number>
+    <points>1</points>
+    <QuestionText> Основное назначение СУБД?</QuestionText>
+    <CorrectAnswer>поддержка интегрированной совокупности данных</CorrectAnswer>
+    <FirstIncorrectAnswer>обеспечение независимости прикладных программ и данных</FirstIncorrectAnswer>
+    <SecondIncorrectAnswer>представление средств организации данных одной прикладной программе </SecondIncorrectAnswer>
+    <ThirdIncorrectAnswer>поддержка сложных математических вычислений</ThirdIncorrectAnswer>
+  </Question>
+  <Question>
+    <number>3</number>
+    <points>1</points>
+    <QuestionText>Что не входит в функции СУБД?</QuestionText>
+    <CorrectAnswer>проверка корректности прикладных программ, работающих с базой данных</CorrectAnswer>
+    <FirstIncorrectAnswer>предоставление возможности манипулирования данными</FirstIncorrectAnswer>
+    <SecondIncorrectAnswer>загрузка данных в базу данных </SecondIncorrectAnswer>
+    <ThirdIncorrectAnswer>создание структуры базы данных</ThirdIncorrectAnswer>
+  </Question>
+  <Question>
+    <number>4</number>
+    <points>1</points>
+    <QuestionText>Основные цели обеспечения логической и физической целостности базы данных?</QuestionText>
+    <CorrectAnswer>защита от возможного появления несоответствия между данными после выполнения операций удаления и корректировки</CorrectAnswer>
+    <FirstIncorrectAnswer>защита от неправильных действий прикладного программиста</FirstIncorrectAnswer>
+    <SecondIncorrectAnswer>защита от неправильных действий администратора баз данных</SecondIncorrectAnswer>
+    <ThirdIncorrectAnswer>защита от возможных ошибок ввода данных</ThirdIncorrectAnswer>
+  </Question>
+  <Question>
+    <number>5</number>
+    <points>1</points>
+    <QuestionText>Что такое концептуальная модель?</QuestionText>
+    <CorrectAnswer>обобщенное представление пользователей о данных</CorrectAnswer>
+    <FirstIncorrectAnswer>Интегрированные данные</FirstIncorrectAnswer>
+    <SecondIncorrectAnswer>база данных</SecondIncorrectAnswer>
+    <ThirdIncorrectAnswer>описание представления данных в памяти компьютера</ThirdIncorrectAnswer>
+  </Question>
+  <Question>
+    <number>6</number>
+    <points>1</points>
+    <QuestionText>Выбере выриант который входит в архетектуру баз данных.</QuestionText>
+    <CorrectAnswer>внешний</CorrectAnswer>
+    <FirstIncorrectAnswer>нижний</FirstIncorrectAnswer>
+    <SecondIncorrectAnswer>верхний</SecondIncorrectAnswer>
+    <ThirdIncorrectAnswer>прямой</ThirdIncorrectAnswer>
+  </Question>
+  <Question>
+    <number>7</number>
+    <points>1</points>
+    <QuestionText>База данных – это:</QuestionText>
+    <CorrectAnswer>совокупность данных, организованных по определенным правилам</CorrectAnswer>
+    <FirstIncorrectAnswer>совокупность программ для хранения и обработки больших массивов информации</FirstIncorrectAnswer>
+    <SecondIncorrectAnswer>интерфейс, поддерживающий наполнение и манипулирование данными</SecondIncorrectAnswer>
+    <ThirdIncorrectAnswer>определенная совокупность информации</ThirdIncorrectAnswer>
+  </Question>
+  <Question>
+    <number>8</number>
+    <points>1</points>
+    <QuestionText>Наиболее точным аналогом иерархической базы данных может служить:</QuestionText>
+    <CorrectAnswer>генеалогическое дерево</CorrectAnswer>
+    <FirstIncorrectAnswer>неупорядоченное множество данных</FirstIncorrectAnswer>
+    <SecondIncorrectAnswer>вектор</SecondIncorrectAnswer>
+    <ThirdIncorrectAnswer>двумерная таблица</ThirdIncorrectAnswer>
+  </Question>
+  <Question>
+    <number>9</number>
+    <points>1</points>
+    <QuestionText>Реляционная база данных – это?</QuestionText>
+    <CorrectAnswer>БД, в которой информация организована в виде прямоугольных таблиц</CorrectAnswer>
+    <FirstIncorrectAnswer>БД, в которой элементы в записи упорядочены, т.е. один элемент считается главным, остальные подчиненными</FirstIncorrectAnswer>
+    <SecondIncorrectAnswer>БД, в которой записи расположена в произвольном порядке;</SecondIncorrectAnswer>
+    <ThirdIncorrectAnswer>БД, в которой существует возможность устанавливать дополнительно к вертикальным иерархическим связям горизонтальные связи</ThirdIncorrectAnswer>
+  </Question>
+  <Question>
+    <number>10</number>
+    <points>1</points>
+    <QuestionText>Основные особенности сетевой базы данных</QuestionText>
+    <CorrectAnswer>набор узлов, в котором каждый может быть связан с каждым</CorrectAnswer>
+    <FirstIncorrectAnswer>многоуровневая структура</FirstIncorrectAnswer>
+    <SecondIncorrectAnswer>набор взаимосвязанных таблиц</SecondIncorrectAnswer>
+    <ThirdIncorrectAnswer>данные в виде одной таблицы</ThirdIncorrectAnswer>
+  </Question>
+  <Question>
+    <number>11</number>
+    <points>1</points>
+    <QuestionText>Строка, описывающая свойства элемента таблицы базы данных, называется:</QuestionText>
+    <CorrectAnswer>записью</CorrectAnswer>
+    <FirstIncorrectAnswer>полем</FirstIncorrectAnswer>
+    <SecondIncorrectAnswer>бланком</SecondIncorrectAnswer>
+    <ThirdIncorrectAnswer>ключом</ThirdIncorrectAnswer>
+  </Question>
+  <Question>
+    <number>12</number>
+    <points>1</points>
+    <QuestionText>Установку отношения между ключевым полем од­ной таблицы и полем внешнего ключа другой на­зывают:</QuestionText>
+    <CorrectAnswer>связью</CorrectAnswer>
+    <FirstIncorrectAnswer>паролем</FirstIncorrectAnswer>
+    <SecondIncorrectAnswer>запросом</SecondIncorrectAnswer>
+    <ThirdIncorrectAnswer>подстановкой</ThirdIncorrectAnswer>
+  </Question>
+  <Question>
+    <number>13</number>
+    <points>1</points>
+    <QuestionText>Определите вид связи между сущностями «Магазин» и «Книга»</QuestionText>
+    <CorrectAnswer>«Многие – ко – многим»</CorrectAnswer>
+    <FirstIncorrectAnswer>«Один – к – одному»</FirstIncorrectAnswer>
+    <SecondIncorrectAnswer>«Один – ко – многим»</SecondIncorrectAnswer>
+    <ThirdIncorrectAnswer>«Многие – к – одному»</ThirdIncorrectAnswer>
+  </Question>
+  <Question>
+    <number>14</number>
+    <points>1</points>
+    <QuestionText>Для чего предназначены формы</QuestionText>
+    <CorrectAnswer>для ввода данных базы и их просмотра</CorrectAnswer>
+    <FirstIncorrectAnswer>для хранения данных базы</FirstIncorrectAnswer>
+    <SecondIncorrectAnswer>для отбора и обработки данных базы</SecondIncorrectAnswer>
+    <ThirdIncorrectAnswer>для автоматического выполнения группы команд</ThirdIncorrectAnswer>
+  </Question>
+  <Question>
+    <number>15</number>
+    <points>1</points>
+    <QuestionText>Где расположены программы пользователя и программы СУБД в архитектуре файл-сервер?</QuestionText>
+    <CorrectAnswer>На компьютере пользователя</CorrectAnswer>
+    <FirstIncorrectAnswer>На специально выделенном компьютере – сервере</FirstIncorrectAnswer>
+    <SecondIncorrectAnswer>Программа пользователя на компьютере пользователя, СУБД на специально выделенном компьютере – сервере</SecondIncorrectAnswer>
+    <ThirdIncorrectAnswer>СУБД расположена на всех компьютерах пользователей в сети</ThirdIncorrectAnswer>
+  </Question>
+  <Question>
+    <number>16</number>
+    <points>1</points>
+    <QuestionText>На каком компьютере происходит работа с базой данных в архитектуре клиент-сервер?</QuestionText>
+    <CorrectAnswer>Прикладные программы работают на компьютере пользователя, программы работают на специально выделенном компьютере-сервере</CorrectAnswer>
+    <FirstIncorrectAnswer>На компьютере одного пользователя</FirstIncorrectAnswer>
+    <SecondIncorrectAnswer>На специально-выделенном компьютере – сервере</SecondIncorrectAnswer>
+    <ThirdIncorrectAnswer>Прикладные программы и программы СУБД работают на компьютере пользователя</ThirdIncorrectAnswer>
+  </Question>
+  <Question>
+    <number>17</number>
+    <points>1</points>
+    <QuestionText>Предложение WHERE языка запросов SQL означает</QuestionText>
+    <CorrectAnswer>Правильный</CorrectAnswer>
+    <FirstIncorrectAnswer>Сортировку выборки запроса по указанным полям</FirstIncorrectAnswer>
+    <SecondIncorrectAnswer>Группировку выборки запроса по указанным полям</SecondIncorrectAnswer>
+    <ThirdIncorrectAnswer>Условие на выбираемые группы</ThirdIncorrectAnswer>
+  </Question>
+  <Question>
+    <number>18</number>
+    <points>1</points>
+    <QuestionText>Укажите возможные виды объединений таблиц в запросах</QuestionText>
+    <CorrectAnswer>Левое</CorrectAnswer>
+    <FirstIncorrectAnswer>Внутреннее</FirstIncorrectAnswer>
+    <SecondIncorrectAnswer>Прямое</SecondIncorrectAnswer>
+    <ThirdIncorrectAnswer>Обратное</ThirdIncorrectAnswer>
+  </Question>
+  <Question>
+    <number>19</number>
+    <points>1</points>
+    <QuestionText>Привилегия USAGE разрешает пользователю</QuestionText>
+    <CorrectAnswer>зарегистрироваться в системе</CorrectAnswer>
+    <FirstIncorrectAnswer>загружать данные из файла</FirstIncorrectAnswer>
+    <SecondIncorrectAnswer>передавать свои привилегии другим пользователям</SecondIncorrectAnswer>
+    <ThirdIncorrectAnswer>обновлять привилегии</ThirdIncorrectAnswer>
+  </Question>
+  <Question>
+    <number>20</number>
+    <points>1</points>
+    <QuestionText>Основные требования, побуждающие пользователя к использованию СУБД</QuestionText>
+    <CorrectAnswer>необходимость решения ряда задач с использованием общих данных</CorrectAnswer>
+    <FirstIncorrectAnswer>большой объем данных в прикладной программе</FirstIncorrectAnswer>
+    <SecondIncorrectAnswer>большой объем сложных математических вычислений</SecondIncorrectAnswer>
+    <ThirdIncorrectAnswer>необходимость представления средств организации данных прикладной программе</ThirdIncorrectAnswer>
+  </Question>
+  <Question>
+    <number>21</number>
+    <points>1</points>
+    <QuestionText>Какие средства используются в СУБД для обеспечения логической целостности?</QuestionText>
+    <CorrectAnswer>Контроль типа вводимых данных</CorrectAnswer>
+    <FirstIncorrectAnswer>Блокировки</FirstIncorrectAnswer>
+    <SecondIncorrectAnswer>Синхронизация работы пользователей</SecondIncorrectAnswer>
+    <ThirdIncorrectAnswer>Безконтрольный типа вводимых данных</ThirdIncorrectAnswer>
+  </Question>
+  <Question>
+    <number>22</number>
+    <points>1</points>
+    <QuestionText>Примером иерархической базы данных является:</QuestionText>
+    <CorrectAnswer>каталог файлов, хранимых на диске</CorrectAnswer>
+    <FirstIncorrectAnswer>страница классного журнала</FirstIncorrectAnswer>
+    <SecondIncorrectAnswer>расписание поездов</SecondIncorrectAnswer>
+    <ThirdIncorrectAnswer>электронная таблица</ThirdIncorrectAnswer>
+  </Question>
+  <Question>
+    <number>23</number>
+    <points>1</points>
+    <QuestionText>Сетевая база данных предполагает такую организацию данных, при которой</QuestionText>
+    <CorrectAnswer>помимо вертикальных иерархических связей(между данными) существуют и горизонтальные</CorrectAnswer>
+    <FirstIncorrectAnswer>связи между данными отражаются в виде таблицы</FirstIncorrectAnswer>
+    <SecondIncorrectAnswer>связи между данными описываются в виде дерева</SecondIncorrectAnswer>
+    <ThirdIncorrectAnswer>связи между данными отражаются в виде совокупности нескольких таблиц</ThirdIncorrectAnswer>
+  </Question>
+  <Question>
+    <number>24</number>
+    <points>1</points>
+    <QuestionText>Что такое поле?</QuestionText>
+    <CorrectAnswer>Набор данных соответствующих одному атрибуту </CorrectAnswer>
+    <FirstIncorrectAnswer>Совокупность атрибутов</FirstIncorrectAnswer>
+    <SecondIncorrectAnswer>Набор атрибутов из разных таблиц</SecondIncorrectAnswer>
+    <ThirdIncorrectAnswer>Атрибутивная модель</ThirdIncorrectAnswer>
+  </Question>
+  <Question>
+    <number>25</number>
+    <points>1</points>
+    <QuestionText>Тип поля (числовой или текстовый) определяется ...</QuestionText>
+    <CorrectAnswer>типом данных</CorrectAnswer>
+    <FirstIncorrectAnswer>названием поля</FirstIncorrectAnswer>
+    <SecondIncorrectAnswer>шириной поля</SecondIncorrectAnswer>
+    <ThirdIncorrectAnswer>количеством строк</ThirdIncorrectAnswer>
+  </Question>
+  <Question>
+    <number>26</number>
+    <points>1</points>
+    <QuestionText>Определите вид связи между сущностями «Группа крови» и «Человек»</QuestionText>
+    <CorrectAnswer>«Один – ко – многим»</CorrectAnswer>
+    <FirstIncorrectAnswer>«Многие – к – одному»</FirstIncorrectAnswer>
+    <SecondIncorrectAnswer>«Один – к – одному»</SecondIncorrectAnswer>
+    <ThirdIncorrectAnswer>«Многие – ко – многим»</ThirdIncorrectAnswer>
+  </Question>
+  <Question>
+    <number>27</number>
+    <points>1</points>
+    <QuestionText>Строка таблицы данных содержит</QuestionText>
+    <CorrectAnswer>информацию о конкретном объекте</CorrectAnswer>
+    <FirstIncorrectAnswer>информацию о совокупности однотипных объектов</FirstIncorrectAnswer>
+    <SecondIncorrectAnswer>информацию о совокупности всех объектов, относящихся к некоторой предметной области</SecondIncorrectAnswer>
+    <ThirdIncorrectAnswer>ничего не содержит</ThirdIncorrectAnswer>
+  </Question>
+  <Question>
+    <number>28</number>
+    <points>1</points>
+    <QuestionText>Для чего предназначены запросы</QuestionText>
+    <CorrectAnswer>для отбора и обработки данных базы</CorrectAnswer>
+    <FirstIncorrectAnswer>для хранения данных базы</FirstIncorrectAnswer>
+    <SecondIncorrectAnswer>для ввода данных базы и их просмотра</SecondIncorrectAnswer>
+    <ThirdIncorrectAnswer>для вывода обработанных данных базы на принтер?</ThirdIncorrectAnswer>
+  </Question>
+  <Question>
+    <number>29</number>
+    <points>1</points>
+    <QuestionText>Предложение SELECT языка запросов SQL означает</QuestionText>
+    <CorrectAnswer>Выбрать поля из одной или более таблиц</CorrectAnswer>
+    <FirstIncorrectAnswer>Посчитать таблицы базы данных</FirstIncorrectAnswer>
+    <SecondIncorrectAnswer>Создать таблицу</SecondIncorrectAnswer>
+    <ThirdIncorrectAnswer>Удалить записи</ThirdIncorrectAnswer>
+  </Question>
+  <Question>
+    <number>30</number>
+    <points>1</points>
+    <QuestionText>Предложение ORDER BY языка запросов SQL означает</QuestionText>
+    <CorrectAnswer>Сортировку выборки запроса по указанным полям</CorrectAnswer>
+    <FirstIncorrectAnswer>Группировку выборки запроса по указанным полям</FirstIncorrectAnswer>
+    <SecondIncorrectAnswer>Условие на выбираемые поля</SecondIncorrectAnswer>
+    <ThirdIncorrectAnswer>Условие на выбираемые группы</ThirdIncorrectAnswer>
+  </Question>
+  <Question>
+    <number>31</number>
+    <points>1</points>
+    <QuestionText>Что из перечисленного не включает в себя этапы жизненного цикла «Проектирование»?</QuestionText>
+    <CorrectAnswer>Настройка</CorrectAnswer>
+    <FirstIncorrectAnswer>Концептуальное</FirstIncorrectAnswer>
+    <SecondIncorrectAnswer>Логическое</SecondIncorrectAnswer>
+    <ThirdIncorrectAnswer>Физическое</ThirdIncorrectAnswer>
+  </Question>
+  <Question>
+    <number>32</number>
+    <points>1</points>
+    <QuestionText>Что показывает значение NULL?</QuestionText>
+    <CorrectAnswer>в ячейке отсутствует какое-либо значение</CorrectAnswer>
+    <FirstIncorrectAnswer>в ячейке записано число нуль</FirstIncorrectAnswer>
+    <SecondIncorrectAnswer>тип связи</SecondIncorrectAnswer>
+    <ThirdIncorrectAnswer>имя отношения</ThirdIncorrectAnswer>
+  </Question>
+  <Question>
+    <number>33</number>
+    <points>1</points>
+    <QuestionText>Что такое нормализация БД?</QuestionText>
+    <CorrectAnswer>процесс реорганизации данных путем ликвидации избыточности данных</CorrectAnswer>
+    <FirstIncorrectAnswer>дублирование данных</FirstIncorrectAnswer>
+    <SecondIncorrectAnswer>объединение нескольких таблиц в одну</SecondIncorrectAnswer>
+    <ThirdIncorrectAnswer>приведение БД к виду, удобному для пользователя</ThirdIncorrectAnswer>
+  </Question>
+  <Question>
+    <number>34</number>
+    <points>1</points>
+    <QuestionText>Первичный ключ может быть:</QuestionText>
+    <CorrectAnswer>простым и составным</CorrectAnswer>
+    <FirstIncorrectAnswer>простым</FirstIncorrectAnswer>
+    <SecondIncorrectAnswer>составным</SecondIncorrectAnswer>
+    <ThirdIncorrectAnswer>сложным</ThirdIncorrectAnswer>
+  </Question>
+  <Question>
+    <number>35</number>
+    <points>1</points>
+    <QuestionText>Какое расширение имеет файл СУБД Access?</QuestionText>
+    <CorrectAnswer>*.accdb</CorrectAnswer>
+    <FirstIncorrectAnswer>*.doc</FirstIncorrectAnswer>
+    <SecondIncorrectAnswer>*.xls</SecondIncorrectAnswer>
+    <ThirdIncorrectAnswer>*.exe</ThirdIncorrectAnswer>
+  </Question>
+  <Question>
+    <number>36</number>
+    <points>1</points>
+    <QuestionText>Какие типы данных существуют в БД MS Access?</QuestionText>
+    <CorrectAnswer>все ответы правильные</CorrectAnswer>
+    <FirstIncorrectAnswer>текстовый</FirstIncorrectAnswer>
+    <SecondIncorrectAnswer>логический</SecondIncorrectAnswer>
+    <ThirdIncorrectAnswer>счетчик</ThirdIncorrectAnswer>
+  </Question>
+  <Question>
+    <number>37</number>
+    <points>1</points>
+    <QuestionText>Что из перечисленного не является системой управления БД?</QuestionText>
+    <CorrectAnswer>WordPad</CorrectAnswer>
+    <FirstIncorrectAnswer>MySQL</FirstIncorrectAnswer>
+    <SecondIncorrectAnswer>SQL Server</SecondIncorrectAnswer>
+    <ThirdIncorrectAnswer>Microsoft Access</ThirdIncorrectAnswer>
+  </Question>
+  <Question>
+    <number>38</number>
+    <points>1</points>
+    <QuestionText>Какая команда создает таблицы?</QuestionText>
+    <CorrectAnswer>CREATE TABLE</CorrectAnswer>
+    <FirstIncorrectAnswer>ALTER TABLE</FirstIncorrectAnswer>
+    <SecondIncorrectAnswer>DROP TABLE</SecondIncorrectAnswer>
+    <ThirdIncorrectAnswer>DELETE TABLE</ThirdIncorrectAnswer>
+  </Question>
+  <Question>
+    <number>39</number>
+    <points>1</points>
+    <QuestionText>Для чего предназначена команда DISTINCT?</QuestionText>
+    <CorrectAnswer>извлечение уникальных строк</CorrectAnswer>
+    <FirstIncorrectAnswer>сортировка данных в алфавитном порядке по убыванию</FirstIncorrectAnswer>
+    <SecondIncorrectAnswer>сортировка данных в алфавитном порядке по возрастанию</SecondIncorrectAnswer>
+    <ThirdIncorrectAnswer>извлечение данных</ThirdIncorrectAnswer>
+  </Question>
+  <Question>
+    <number>40</number>
+    <points>1</points>
+    <QuestionText>Какое описание данных используется прикладными программами при работе с базой данных?</QuestionText>
+    <CorrectAnswer>описание логической модели данных</CorrectAnswer>
+    <FirstIncorrectAnswer>описание структуры представления базы данных в памяти компьютера</FirstIncorrectAnswer>
+    <SecondIncorrectAnswer>описание структуры хранения данных системой управления базами данных</SecondIncorrectAnswer>
+    <ThirdIncorrectAnswer>описание данных в прикладных программах</ThirdIncorrectAnswer>
+  </Question>
+  <Question>
+    <number>41</number>
+    <points>1</points>
+    <QuestionText>Что понимается под термином "абстрагирование" при описании предметной области</QuestionText>
+    <CorrectAnswer>описание документов, представляющих абстрактный образ обрабатываемых документов</CorrectAnswer>
+    <FirstIncorrectAnswer>описание форм конкретных обрабатываемых документов</FirstIncorrectAnswer>
+    <SecondIncorrectAnswer>описание абстрактного документа, не связанного с рассматриваемой предметной областью</SecondIncorrectAnswer>
+    <ThirdIncorrectAnswer>описание обобщенного представления действий всех пользователей</ThirdIncorrectAnswer>
+  </Question>
+  <Question>
+    <number>42</number>
+    <points>1</points>
+    <QuestionText>В каком порядке происходит обработка логических операторов в SQL?</QuestionText>
+    <CorrectAnswer>сначала OR, затем AND</CorrectAnswer>
+    <FirstIncorrectAnswer>сначала AND, затем OR</FirstIncorrectAnswer>
+    <SecondIncorrectAnswer>только AND</SecondIncorrectAnswer>
+    <ThirdIncorrectAnswer>только OR</ThirdIncorrectAnswer>
+  </Question>
+  <Question>
+    <number>43</number>
+    <points>1</points>
+    <QuestionText>Что такое псевдоним?</QuestionText>
+    <CorrectAnswer>альтернативное имя для поля или значения</CorrectAnswer>
+    <FirstIncorrectAnswer>комбинирование значений путем присоединения их друг к другу для получения одного «длинного» значения</FirstIncorrectAnswer>
+    <SecondIncorrectAnswer>специальные символы, применяемые для поиска части значения</SecondIncorrectAnswer>
+    <ThirdIncorrectAnswer>нет правильного ответа</ThirdIncorrectAnswer>
+  </Question>
+  <Question>
+    <number>44</number>
+    <points>1</points>
+    <QuestionText>Какая функция используется в SQL для сортировки полученных данных?</QuestionText>
+    <CorrectAnswer>ORDER BY</CorrectAnswer>
+    <FirstIncorrectAnswer>DESC</FirstIncorrectAnswer>
+    <SecondIncorrectAnswer>HAVING</SecondIncorrectAnswer>
+    <ThirdIncorrectAnswer>GROUP BY</ThirdIncorrectAnswer>
+  </Question>
+  <Question>
+    <number>45</number>
+    <points>1</points>
+    <QuestionText>Для создание виртуальной таблицы используется </QuestionText>
+    <CorrectAnswer>CREATE VIEW</CorrectAnswer>
+    <FirstIncorrectAnswer>CREATE TABLE</FirstIncorrectAnswer>
+    <SecondIncorrectAnswer>CREATE DATABASE</SecondIncorrectAnswer>
+    <ThirdIncorrectAnswer>CREATE VIRTUALTABLE</ThirdIncorrectAnswer>
+  </Question>
+  <Question>
+    <number>46</number>
+    <points>1</points>
+    <QuestionText>Где расположена база данных в архитектуре файл-сервер?</QuestionText>
+    <CorrectAnswer>На компьютере пользователя</CorrectAnswer>
+    <FirstIncorrectAnswer>На специально-выделенном компьютере – сервере</FirstIncorrectAnswer>
+    <SecondIncorrectAnswer>На компьютере пользователя и на специально-выделенном компьютере – сервере</SecondIncorrectAnswer>
+    <ThirdIncorrectAnswer>На всех компьютерах пользователей в локальной сети</ThirdIncorrectAnswer>
+  </Question>
+  <Question>
+    <number>47</number>
+    <points>1</points>
+    <QuestionText>Какая команда имеет большую выборку данных?</QuestionText>
+    <CorrectAnswer>FULL JOIN</CorrectAnswer>
+    <FirstIncorrectAnswer>FULL OUTER JOIN</FirstIncorrectAnswer>
+    <SecondIncorrectAnswer>INNER JOIN</SecondIncorrectAnswer>
+    <ThirdIncorrectAnswer>LEFT JOIN</ThirdIncorrectAnswer>
+  </Question>
+  <Question>
+    <number>48</number>
+    <points>1</points>
+    <QuestionText>Предложение WHERE языка запросов SQL означает</QuestionText>
+    <CorrectAnswer>Условие на выбираемые поля</CorrectAnswer>
+    <FirstIncorrectAnswer>Сортировку выборки запроса по указанным полям</FirstIncorrectAnswer>
+    <SecondIncorrectAnswer>Группировку выборки запроса по указанным полям</SecondIncorrectAnswer>
+    <ThirdIncorrectAnswer>Условие на выбираемые группы</ThirdIncorrectAnswer>
+  </Question>
+  <Question>
+    <number>49</number>
+    <points>1</points>
+    <QuestionText>Индексация полей -...</QuestionText>
+    <CorrectAnswer>ускоряет поиск по базе данных</CorrectAnswer>
+    <FirstIncorrectAnswer>замедляет поиск по базе данных</FirstIncorrectAnswer>
+    <SecondIncorrectAnswer>делает данные не доступными</SecondIncorrectAnswer>
+    <ThirdIncorrectAnswer>добавляет значения к полям</ThirdIncorrectAnswer>
+  </Question>
+  <Question>
+    <number>50</number>
+    <points>1</points>
+    <QuestionText>Какой диалект использует SQL Server Management Studio</QuestionText>
+    <CorrectAnswer>Transact-SQL</CorrectAnswer>
+    <FirstIncorrectAnswer>SQL Developer Data Modeler</FirstIncorrectAnswer>
+    <SecondIncorrectAnswer>MySQL</SecondIncorrectAnswer>
+    <ThirdIncorrectAnswer>MSQL</ThirdIncorrectAnswer>
+  </Question>
+</ArrayOfQuestion>

@@ -38,13 +38,14 @@
             this.questionNumber = new System.Windows.Forms.Label();
             this.richTextBox = new System.Windows.Forms.RichTextBox();
             this.points = new System.Windows.Forms.Label();
+            this.label2 = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // Enter
             // 
             this.Enter.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.Enter.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.Enter.Location = new System.Drawing.Point(562, 307);
+            this.Enter.Location = new System.Drawing.Point(703, 407);
             this.Enter.Name = "Enter";
             this.Enter.Size = new System.Drawing.Size(125, 34);
             this.Enter.TabIndex = 3;
@@ -55,46 +56,41 @@
             // radioButton1
             // 
             this.radioButton1.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.radioButton1.Location = new System.Drawing.Point(51, 161);
+            this.radioButton1.Location = new System.Drawing.Point(38, 176);
             this.radioButton1.Name = "radioButton1";
-            this.radioButton1.Size = new System.Drawing.Size(295, 58);
+            this.radioButton1.Size = new System.Drawing.Size(358, 80);
             this.radioButton1.TabIndex = 4;
             this.radioButton1.TabStop = true;
-            this.radioButton1.Text = "Ответ 1 fgdfgdfgdfgdfgdfg";
             this.radioButton1.UseVisualStyleBackColor = false;
-            this.radioButton1.CheckedChanged += new System.EventHandler(this.radioButton1_CheckedChanged);
             // 
             // radioButton2
             // 
             this.radioButton2.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.radioButton2.Location = new System.Drawing.Point(51, 242);
+            this.radioButton2.Location = new System.Drawing.Point(38, 278);
             this.radioButton2.Name = "radioButton2";
-            this.radioButton2.Size = new System.Drawing.Size(295, 60);
+            this.radioButton2.Size = new System.Drawing.Size(358, 94);
             this.radioButton2.TabIndex = 5;
             this.radioButton2.TabStop = true;
-            this.radioButton2.Text = "Ответ 1";
             this.radioButton2.UseVisualStyleBackColor = true;
             // 
             // radioButton3
             // 
-            this.radioButton3.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.radioButton3.Location = new System.Drawing.Point(352, 166);
+            this.radioButton3.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.radioButton3.Location = new System.Drawing.Point(414, 176);
             this.radioButton3.Name = "radioButton3";
-            this.radioButton3.Size = new System.Drawing.Size(335, 53);
+            this.radioButton3.Size = new System.Drawing.Size(405, 80);
             this.radioButton3.TabIndex = 6;
             this.radioButton3.TabStop = true;
-            this.radioButton3.Text = "Ответ 1";
             this.radioButton3.UseVisualStyleBackColor = true;
             // 
             // radioButton4
             // 
-            this.radioButton4.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.radioButton4.Location = new System.Drawing.Point(352, 242);
+            this.radioButton4.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.radioButton4.Location = new System.Drawing.Point(414, 278);
             this.radioButton4.Name = "radioButton4";
-            this.radioButton4.Size = new System.Drawing.Size(313, 59);
+            this.radioButton4.Size = new System.Drawing.Size(405, 94);
             this.radioButton4.TabIndex = 7;
             this.radioButton4.TabStop = true;
-            this.radioButton4.Text = "Ответ 1";
             this.radioButton4.UseVisualStyleBackColor = true;
             // 
             // label1
@@ -120,20 +116,29 @@
             this.richTextBox.BackColor = System.Drawing.SystemColors.Menu;
             this.richTextBox.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.richTextBox.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.richTextBox.Location = new System.Drawing.Point(38, 53);
+            this.richTextBox.Location = new System.Drawing.Point(29, 45);
             this.richTextBox.Name = "richTextBox";
-            this.richTextBox.Size = new System.Drawing.Size(649, 107);
+            this.richTextBox.Size = new System.Drawing.Size(781, 125);
             this.richTextBox.TabIndex = 10;
-            this.richTextBox.Text = "какой-то длинный тест с вопросом по моему практическому заданию бла бла бла бла";
+            this.richTextBox.Text = "";
             // 
             // points
             // 
             this.points.AutoSize = true;
-            this.points.Location = new System.Drawing.Point(652, 13);
+            this.points.Location = new System.Drawing.Point(815, 13);
             this.points.Name = "points";
             this.points.Size = new System.Drawing.Size(13, 13);
             this.points.TabIndex = 11;
             this.points.Text = "0";
+            // 
+            // label2
+            // 
+            this.label2.AutoSize = true;
+            this.label2.Location = new System.Drawing.Point(690, 13);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(119, 13);
+            this.label2.TabIndex = 12;
+            this.label2.Text = "Правильных ответов: ";
             // 
             // TestSystem
             // 
@@ -141,7 +146,8 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.Control;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
-            this.ClientSize = new System.Drawing.Size(706, 359);
+            this.ClientSize = new System.Drawing.Size(840, 453);
+            this.Controls.Add(this.label2);
             this.Controls.Add(this.points);
             this.Controls.Add(this.richTextBox);
             this.Controls.Add(this.questionNumber);
@@ -151,11 +157,12 @@
             this.Controls.Add(this.radioButton2);
             this.Controls.Add(this.radioButton1);
             this.Controls.Add(this.Enter);
-            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.SizableToolWindow;
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "TestSystem";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Тестирование";
+            this.Deactivate += new System.EventHandler(this.TestSystem_Deactivate);
             this.Load += new System.EventHandler(this.TestSystem_Load);
             this.Leave += new System.EventHandler(this.TestSystem_Leave);
             this.ResumeLayout(false);
@@ -173,6 +180,7 @@
         private System.Windows.Forms.Label questionNumber;
         private System.Windows.Forms.RichTextBox richTextBox;
         private System.Windows.Forms.Label points;
+        private System.Windows.Forms.Label label2;
     }
 }
 

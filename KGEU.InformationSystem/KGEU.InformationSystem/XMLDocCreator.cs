@@ -1,9 +1,10 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.IO;
+using System.Windows.Forms;
 using System.Xml.Serialization;
 
-namespace KGEU.InformationSystem.XMLDocCreat
+namespace KGEU.InformationSystem
 {
     public class XMLDocCreator
     {
@@ -29,6 +30,7 @@ namespace KGEU.InformationSystem.XMLDocCreat
                 }
             } catch (FileNotFoundException e)
             {
+                MessageBox.Show("Выберете вариант ответа.");
                 List<Question> questions = new List<Question>();
                 return questions;
             }

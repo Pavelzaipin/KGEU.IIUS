@@ -8,6 +8,7 @@ namespace KGEU.InformationSystem
 {
     static class Program
     {
+        public static ApplicationContext Context { get; set; }
         /// <summary>
         /// Главная точка входа для приложения.
         /// </summary>
@@ -16,7 +17,8 @@ namespace KGEU.InformationSystem
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new Autorization());
+            Context = new ApplicationContext(new Autorization());
+            Application.Run(Context);
         }
     }
 }

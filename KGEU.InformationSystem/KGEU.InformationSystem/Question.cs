@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace KGEU.InformationSystem
+namespace KGEU.InformationSystem.XMLDocCreat
 {
     /// <summary>
     /// Объект вопроса с ответами 

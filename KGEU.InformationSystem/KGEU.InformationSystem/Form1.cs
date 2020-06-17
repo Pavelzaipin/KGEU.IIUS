@@ -1,13 +1,8 @@
-﻿using KGEU.InformationSystem.XMLDocCreat;
+﻿//using KGEU.InformationSystem.XMLDocCreat;
 using System;
 using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
 using System.Diagnostics;
-using System.Drawing;
 using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using System.Windows.Forms;
 
 namespace KGEU.InformationSystem
@@ -24,8 +19,11 @@ namespace KGEU.InformationSystem
 
         private void TestSystem_Load(object sender, EventArgs e)
         {
-            
             questionsList.AddRange(docCreator.GetQuestions());
+            if(questionsList.Count == 0)
+            {
+                Application.Exit();
+            }
             fillUpOrUpdateLayout();
         }
 
@@ -37,12 +35,10 @@ namespace KGEU.InformationSystem
             }
             else
             {
-                
                 Debug.WriteLine(coorrectAnswer);
                 if (radioButton1.Checked) {
                     if (String.Equals(radioButton1.Text, coorrectAnswer))
                         points.Text = (Int32.Parse(points.Text) + 1).ToString();
-                    Debug.WriteLine(String.Equals(radioButton1.Text, coorrectAnswer) + " " + radioButton1.Text + " " + coorrectAnswer);
                 }
 
                 else if (radioButton2.Checked) {
@@ -89,7 +85,11 @@ namespace KGEU.InformationSystem
             }
             else
             {
-                Enter.Enabled = false;
+                if (MessageBox.Show($"Вы ответили правильно на {points.Text} вопросов из {questionsList.Count()}", "Результаты", MessageBoxButtons.OK) == System.Windows.Forms.DialogResult.OK)
+                {
+                    Enter.Enabled = false;
+                    Application.Exit();
+                }    
             }
         }
 
@@ -106,29 +106,14 @@ namespace KGEU.InformationSystem
             return arr;
         }
 
-        private void TestSystem_Exit(object sender, FormClosingEventArgs e)
+        private void TestSystem_Deactivate(object sender, EventArgs e)
         {
            
         }
 
-        private void radioButton1_CheckedChanged(object sender, EventArgs e)
-        {
-
-        }
-
         private void TestSystem_Leave(object sender, EventArgs e)
         {
-
-        }
-
-        private void TestSystem_Deactivate(object sender, EventArgs e)
-        {
-            Debug.WriteLine("exxxxittt");
-            if (MessageBox.Show("Are you sure?", "Attantion", MessageBoxButtons.YesNo) == System.Windows.Forms.DialogResult.Yes)
-            {
-
-                Application.Exit();
-            }
+            
         }
     }
 }

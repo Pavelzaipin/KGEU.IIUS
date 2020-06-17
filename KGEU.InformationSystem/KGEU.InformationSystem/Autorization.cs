@@ -1,12 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
-using System.Diagnostics;
-using System.Drawing;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using System.Windows.Forms;
 
 namespace KGEU.InformationSystem
@@ -27,10 +19,14 @@ namespace KGEU.InformationSystem
         {
             if (textBox1.Text == "Supervisor" && textBox2.Text == "Supervisor")
             {
-                TestSystem testSystem = new TestSystem();
 
-                testSystem.Show();
-                Hide();
+                Program.Context.MainForm = new TestSystem();
+
+                this.Close();
+
+                // покажет вторую форму и оставит приложение живым до ее закрытия
+                Program.Context.MainForm.Show();
+
             }
         }
     }
