@@ -19,7 +19,7 @@ namespace KGEU.InformationSystem
         {
             if (textBox1.Text == "Supervisor" && textBox2.Text == "Supervisor")
             {
-
+                // назначает новую главную форму
                 Program.Context.MainForm = new TestSystem();
 
                 this.Close();
